@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>James' Example Blog</title>
+        <link rel="stylesheet" href="https://jamesg.blog/assets/styles.css" />
+        <style>
+            .list-item {
+                display: flex; flex-direction: row; flex-wrap: wrap; margin-bottom: 15px;
+            }
+            ul {
+                padding: 0;
+            }
+            .photo {
+                width: 50px; height: 50px; border-radius: 50%; margin-right: 10px;
+            }
+            .photo-link {
+                text-decoration: none;
+                border-bottom: none;
+            }
+            .photo-item {
+                display: inline-block; margin-top: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <main>
+            <section class="social_interaction">
+                <h1>James' Blog</h1>
+                <p>A personal blog.</p>
+            </section>
+            <ul class="blog">
+                <li class="social_interaction h-entry list-item">
+                    <div>
+                        <p class="p-author h-card">
+                            <a class="u-url photo-link" href="https://jamesg.blog/">
+                                <img class="u-photo photo" src="https://jamesg.blog/assets/coffeeshop.jpg" alt="James" />
+                                <span class="p-name photo-item">James</span>
+                            </a>
+                        </p>
+                        <p>This was a great read, Aaron!</p>
+                        <hr>
+                        <p>Replying to <a href="https://aaronparecki.com/2022/11/14/9/raspberry-pi-restream" class="u-url">How to Build a Restreaming Server with a Raspberry Pi</a> by Aaron Parecki</p>
+                    </div>
+                </li>
+            </ul>
+        </main>
+    </body>
+</html>
